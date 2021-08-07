@@ -210,9 +210,10 @@ body {
 .card{margin: 20px 0;}
 input[type=text]{width: 100%;padding: 10px;border-radius: 5px;font-size: 1.5em;}
 .title,.input-label{text-align: center;width: 100%;display: inline-block;margin: 10px 0;}
-
+.title span{display: block;font-size: 0.45em;text-transform: capitalize;}
 .stack{display: flex;justify-content: space-around;}
 .filter-button{flex: 1;}
+.btn.active{background-color:grey;color: white;border: 1px solid grey;}
 .card.edit{border: 2px solid;padding: 10px;border-radius: 10px;}
 
 @media(max-width: 32em){

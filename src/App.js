@@ -103,7 +103,7 @@ function deleteTask(id){
   return (
    <div className='todo-matic'>
 
-    <h1 className='title'>TodoMatic </h1>
+    <h1 className='title'>Task Master <span> manage your tasks</span> </h1>
     <Form add={addTask} />
     <div className="stack">
     {filterList}
