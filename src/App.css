@@ -208,7 +208,7 @@ body {
 .ml-2{margin-left: 0.5em}
 .c-cb{margin-bottom: 10px;font-weight: bold;}
 .card{margin: 20px 0;}
-input[type=text]{width: 100%;padding: 10px;border-radius: 5px;}
+input[type=text]{width: 100%;padding: 10px;border-radius: 5px;font-size: 1.5em;}
 .title,.input-label{text-align: center;width: 100%;display: inline-block;margin: 10px 0;}
 
 .stack{display: flex;justify-content: space-around;}
@@ -216,7 +216,9 @@ input[type=text]{width: 100%;padding: 10px;border-radius: 5px;}
 .card.edit{border: 2px solid;padding: 10px;border-radius: 10px;}
 
 @media(max-width: 32em){
-  .todo-matic{border: none;margin: 0;width: 100%}
+  .todo-matic{border: none;margin: 0;
+    width: 100%;padding: 15px;}
+    *:focus{outline: none}
 }
 
 
