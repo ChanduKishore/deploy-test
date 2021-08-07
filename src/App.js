@@ -1,6 +1,6 @@
 
 import React,{useEffect, useState} from 'react';
-import './app.css' ;
+import './App.css' ;
 import Todo from './components/todo';
 import {nanoid} from 'nanoid';
 import Form from './components/form';
